@@ -15,8 +15,9 @@ html {
 /********************
 ****** header *******
 *********************/
-.main-header {
-  background-image: url(/images/bg-header-desktop.png);
+#main-header {
+  background: url(../images/bg-header-desktop.png) no-repeat  center center/cover;
+  text-align: center;
 }
 .logo {
   margin-top: 8rem;
