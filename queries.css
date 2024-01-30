@@ -1,0 +1,138 @@
+/********************
+****** 1296 px (pc) *******
+*********************/
+@media (max-width: 81em) {
+  .feature-section {
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: start;
+  }
+  .feature {
+    justify-self: center;
+  }
+}
+/********************
+****** 1033 px (loptop) *******
+*********************/
+@media (max-width: 64.5em) {
+  .feature-section {
+    row-gap: 1.6rem;
+  }
+  .feature:nth-child(3) {
+    align-self: center;
+  }
+  .logos {
+    gap: 2.4rem;
+  }
+  .devices-img {
+    width: 80%;
+  }
+}
+/********************
+****** 936 px (small loptop) *******
+*********************/
+@media (max-width: 58.5em) {
+  .feature-section {
+    align-items: center;
+  }
+}
+/********************
+****** 736 px (tablet and ipad) *******
+*********************/
+@media (max-width: 46em) {
+  html {
+    font-size: 56.25%;
+  }
+  .feature-section {
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: auto;
+    gap: 4.8rem;
+  }
+  .pc-img {
+    margin-top: 6.4rem;
+  }
+}
+/********************
+****** 640 px (mini tablet) *******
+*********************/
+@media (max-width: 40em) {
+  html {
+    font-size: 50%;
+  }
+  .primary-header {
+    font-size: 3.6rem;
+  }
+  .btn {
+    display: block;
+    padding: 1.2rem 6.4rem;
+    margin: 1.6rem auto 0 auto;
+  }
+  .btn:not(:last-child) {
+    margin-right: auto;
+  }
+  .logo-company {
+    margin-right: 0;
+  }
+  .footer-links {
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  }
+  .social-icons {
+    margin-right: 0;
+  }
+  .footer-link {
+    font-size: 1.2rem;
+  }
+  .footer-icons {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+/********************
+****** 480 px (big phone) *******
+*********************/
+@media (max-width: 30em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+/********************
+****** 375 px (mobile-view) *******
+*********************/
+@media (max-width: 23.43em) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    max-width: 37.5rem;
+  }
+  .centered-container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .pc-img {
+    width: 95%;
+  }
+  .feature-section {
+    width: 90%;
+  }
+  .feature {
+    width: 90%;
+    margin: auto;
+  }
+  .feature-in {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+  .logos {
+    flex-direction: column;
+    gap: 6.4rem;
+  }
+  .footer-links {
+    display: flex;
+    gap: 3.2rem;
+    flex-direction: column;
+  }
+  .social-icons {
+    margin-left: 0;
+  }
+}
